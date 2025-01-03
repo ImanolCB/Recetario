@@ -1,0 +1,495 @@
+{
+    "recipes": [
+        {
+            "title": "Tortilla de Patatas",
+            "steps": [
+                "Pelar y cortar las patatas en rodajas finas.",
+                "Freír las patatas en aceite caliente hasta que estén tiernas.",
+                "Batir los huevos en un bol grande.",
+                "Añadir las patatas fritas a los huevos batidos y mezclar bien.",
+                "Calentar una sartén con un poco de aceite y verter la mezcla.",
+                "Cocinar a fuego medio hasta que esté dorada por un lado, luego dar la vuelta y dorar por el otro lado."
+            ],
+            "ingredients": [
+                "4 patatas",
+                "6 huevos",
+                "Aceite de oliva",
+                "Sal"
+            ],
+            "image": "tortilla_de_patatas.jpg",
+            "duration": "30 minutos",
+            "category": "Plato principal"
+        },
+        {
+            "title": "Ensalada César",
+            "steps": [
+                "Lavar y cortar la lechuga romana.",
+                "Preparar la salsa César mezclando mayonesa, ajo, anchoas, queso parmesano, jugo de limón y mostaza.",
+                "Tostar los croutones en una sartén con un poco de aceite.",
+                "Mezclar la lechuga con la salsa y los croutones.",
+                "Añadir tiras de pollo a la parrilla si se desea."
+            ],
+            "ingredients": [
+                "1 lechuga romana",
+                "100g de croutones",
+                "50g de queso parmesano",
+                "Salsa César",
+                "Pollo a la parrilla (opcional)"
+            ],
+            "image": "ensalada_cesar.jpg",
+            "duration": "15 minutos",
+            "category": "Ensalada"
+        },
+        {
+            "title": "Paella",
+            "steps": [
+                "Calentar el aceite en una paellera.",
+                "Añadir el pollo y el conejo y dorar.",
+                "Añadir las verduras y sofreír.",
+                "Añadir el tomate rallado y cocinar unos minutos.",
+                "Añadir el arroz y sofreír un poco.",
+                "Añadir el caldo caliente y el azafrán.",
+                "Cocinar a fuego medio hasta que el arroz esté en su punto."
+            ],
+            "ingredients": [
+                "400g de arroz",
+                "1L de caldo de pollo",
+                "200g de pollo",
+                "200g de conejo",
+                "100g de judías verdes",
+                "1 tomate",
+                "Aceite de oliva",
+                "Azafrán",
+                "Sal"
+            ],
+            "image": "paella.jpg",
+            "duration": "60 minutos",
+            "category": "Plato principal"
+        },
+        {
+            "title": "Gazpacho",
+            "steps": [
+                "Lavar y cortar los tomates, el pepino, el pimiento y la cebolla.",
+                "Triturar todos los ingredientes en una batidora.",
+                "Añadir el aceite, el vinagre y la sal y mezclar bien.",
+                "Pasar la mezcla por un colador para eliminar los restos sólidos.",
+                "Enfriar en la nevera antes de servir."
+            ],
+            "ingredients": [
+                "1kg de tomates",
+                "1 pepino",
+                "1 pimiento verde",
+                "1 cebolla",
+                "50ml de aceite de oliva",
+                "30ml de vinagre",
+                "Sal"
+            ],
+            "image": "gazpacho.jpg",
+            "duration": "20 minutos",
+            "category": "Sopa"
+        },
+        {
+            "title": "Croquetas de Jamón",
+            "steps": [
+                "Picar el jamón en trozos pequeños.",
+                "Derretir la mantequilla en una sartén y añadir la harina.",
+                "Cocinar la mezcla hasta que esté dorada.",
+                "Añadir la leche poco a poco, removiendo constantemente.",
+                "Añadir el jamón picado y cocinar hasta que la masa espese.",
+                "Dejar enfriar la masa y formar las croquetas.",
+                "Pasar las croquetas por huevo batido y pan rallado.",
+                "Freír en aceite caliente hasta que estén doradas."
+            ],
+            "ingredients": [
+                "200g de jamón",
+                "50g de mantequilla",
+                "50g de harina",
+                "500ml de leche",
+                "2 huevos",
+                "Pan rallado",
+                "Aceite de oliva",
+                "Sal"
+            ],
+            "image": "croquetas_de_jamon.jpg",
+            "duration": "45 minutos",
+            "category": "Aperitivo"
+        },
+        {
+            "title": "Tarta de Queso",
+            "steps": [
+                "Precalentar el horno a 180°C.",
+                "Triturar las galletas y mezclar con la mantequilla derretida.",
+                "Cubrir el fondo de un molde con la mezcla de galletas.",
+                "Mezclar el queso crema, el azúcar, los huevos y la vainilla.",
+                "Verter la mezcla sobre la base de galletas.",
+                "Hornear durante 50 minutos o hasta que esté dorada.",
+                "Dejar enfriar antes de desmoldar."
+            ],
+            "ingredients": [
+                "200g de galletas",
+                "100g de mantequilla",
+                "500g de queso crema",
+                "200g de azúcar",
+                "3 huevos",
+                "1 cucharadita de vainilla"
+            ],
+            "image": "tarta_de_queso.jpg",
+            "duration": "70 minutos",
+            "category": "Postre"
+        },
+        {
+            "title": "Sopa de Cebolla",
+            "steps": [
+                "Cortar las cebollas en rodajas finas.",
+                "Derretir la mantequilla en una olla y añadir las cebollas.",
+                "Cocinar a fuego lento hasta que las cebollas estén caramelizadas.",
+                "Añadir el caldo de pollo y llevar a ebullición.",
+                "Reducir el fuego y cocinar a fuego lento durante 30 minutos.",
+                "Servir con pan tostado y queso rallado."
+            ],
+            "ingredients": [
+                "4 cebollas",
+                "50g de mantequilla",
+                "1L de caldo de pollo",
+                "Pan tostado",
+                "Queso rallado",
+                "Sal",
+                "Pimienta"
+            ],
+            "image": "sopa_de_cebolla.jpg",
+            "duration": "45 minutos",
+            "category": "Sopa"
+        },
+        {
+            "title": "Pollo al Curry",
+            "steps": [
+                "Cortar el pollo en trozos pequeños.",
+                "Calentar el aceite en una sartén y añadir la cebolla picada.",
+                "Añadir el ajo y el jengibre y cocinar unos minutos.",
+                "Añadir el pollo y dorar.",
+                "Añadir el curry en polvo y cocinar unos minutos.",
+                "Añadir la leche de coco y cocinar a fuego lento hasta que el pollo esté cocido.",
+                "Servir con arroz."
+            ],
+            "ingredients": [
+                "500g de pollo",
+                "1 cebolla",
+                "2 dientes de ajo",
+                "1 trozo de jengibre",
+                "2 cucharadas de curry en polvo",
+                "400ml de leche de coco",
+                "Aceite de oliva",
+                "Sal",
+                "Arroz"
+            ],
+            "image": "pollo_al_curry.jpg",
+            "duration": "40 minutos",
+            "category": "Plato principal"
+        },
+        {
+            "title": "Pizza Margarita",
+            "steps": [
+                "Precalentar el horno a 220°C.",
+                "Extender la masa de pizza sobre una bandeja de horno.",
+                "Untar la salsa de tomate sobre la masa.",
+                "Añadir el queso mozzarella rallado.",
+                "Hornear durante 15-20 minutos o hasta que la masa esté dorada.",
+                "Añadir hojas de albahaca fresca antes de servir."
+            ],
+            "ingredients": [
+                "1 masa de pizza",
+                "200g de salsa de tomate",
+                "200g de queso mozzarella",
+                "Hojas de albahaca fresca"
+            ],
+            "image": "pizza_margarita.jpg",
+            "duration": "30 minutos",
+            "category": "Plato principal"
+        },
+        {
+            "title": "Brownie de Chocolate",
+            "steps": [
+                "Precalentar el horno a 180°C.",
+                "Derretir la mantequilla y el chocolate en un bol.",
+                "Añadir el azúcar y mezclar bien.",
+                "Añadir los huevos uno a uno, mezclando bien después de cada adición.",
+                "Añadir la harina y mezclar hasta que esté bien incorporada.",
+                "Verter la mezcla en un molde y hornear durante 25-30 minutos.",
+                "Dejar enfriar antes de cortar en cuadrados."
+            ],
+            "ingredients": [
+                "200g de chocolate",
+                "150g de mantequilla",
+                "200g de azúcar",
+                "3 huevos",
+                "100g de harina"
+            ],
+            "image": "brownie_de_chocolate.jpg",
+            "duration": "45 minutos",
+            "category": "Postre"
+        },
+        {
+            "title": "Lasaña",
+            "steps": [
+                "Precalentar el horno a 180°C.",
+                "Cocinar las láminas de lasaña según las instrucciones del paquete.",
+                "Preparar la salsa boloñesa cocinando la carne picada con la cebolla, el ajo y el tomate.",
+                "Preparar la salsa bechamel derritiendo la mantequilla, añadiendo la harina y la leche.",
+                "Montar la lasaña alternando capas de láminas de lasaña, salsa boloñesa y salsa bechamel.",
+                "Cubrir con queso rallado y hornear durante 30-40 minutos."
+            ],
+            "ingredients": [
+                "12 láminas de lasaña",
+                "500g de carne picada",
+                "1 cebolla",
+                "2 dientes de ajo",
+                "400g de tomate triturado",
+                "50g de mantequilla",
+                "50g de harina",
+                "500ml de leche",
+                "Queso rallado",
+                "Aceite de oliva",
+                "Sal",
+                "Pimienta"
+            ],
+            "image": "lasagna.jpg",
+            "duration": "90 minutos",
+            "category": "Plato principal"
+        },
+        {
+            "title": "Tiramisú",
+            "steps": [
+                "Separar las claras de las yemas.",
+                "Batir las yemas con el azúcar hasta que estén cremosas.",
+                "Añadir el queso mascarpone y mezclar bien.",
+                "Batir las claras a punto de nieve e incorporarlas a la mezcla anterior.",
+                "Mojar los bizcochos en café y colocarlos en el fondo de un molde.",
+                "Cubrir con una capa de la mezcla de mascarpone.",
+                "Repetir las capas hasta terminar con una capa de mascarpone.",
+                "Espolvorear con cacao en polvo y refrigerar durante al menos 4 horas."
+            ],
+            "ingredients": [
+                "3 huevos",
+                "100g de azúcar",
+                "250g de queso mascarpone",
+                "200g de bizcochos de soletilla",
+                "200ml de café",
+                "Cacao en polvo"
+            ],
+            "image": "tiramisu.jpg",
+            "duration": "30 minutos",
+            "category": "Postre"
+        },
+        {
+            "title": "Empanadas",
+            "steps": [
+                "Preparar la masa mezclando la harina, la sal, el agua y el aceite.",
+                "Amasar hasta obtener una masa homogénea y dejar reposar.",
+                "Preparar el relleno cocinando la carne picada con la cebolla, el pimiento y el tomate.",
+                "Estirar la masa y cortar en círculos.",
+                "Colocar una cucharada de relleno en el centro de cada círculo y cerrar formando una empanada.",
+                "Hornear a 180°C durante 20-25 minutos o hasta que estén doradas."
+            ],
+            "ingredients": [
+                "500g de harina",
+                "1 cucharadita de sal",
+                "200ml de agua",
+                "50ml de aceite",
+                "500g de carne picada",
+                "1 cebolla",
+                "1 pimiento",
+                "1 tomate",
+                "Aceite de oliva",
+                "Sal",
+                "Pimienta"
+            ],
+            "image": "empanadas.jpg",
+            "duration": "60 minutos",
+            "category": "Aperitivo"
+        },
+        {
+            "title": "Ceviche",
+            "steps": [
+                "Cortar el pescado en cubos pequeños.",
+                "Exprimir el jugo de los limones y mezclar con el pescado.",
+                "Añadir la cebolla, el cilantro, el ají y el maíz.",
+                "Dejar marinar en la nevera durante 30 minutos.",
+                "Servir frío."
+            ],
+            "ingredients": [
+                "500g de pescado blanco",
+                "6 limones",
+                "1 cebolla roja",
+                "Cilantro fresco",
+                "1 ají",
+                "Maíz cocido",
+                "Sal"
+            ],
+            "image": "ceviche.jpg",
+            "duration": "40 minutos",
+            "category": "Entrante"
+        },
+        {
+            "title": "Galletas de Avena",
+            "steps": [
+                "Precalentar el horno a 180°C.",
+                "Mezclar la mantequilla con el azúcar hasta obtener una mezcla cremosa.",
+                "Añadir el huevo y la vainilla y mezclar bien.",
+                "Añadir la harina, la avena y el bicarbonato y mezclar hasta obtener una masa homogénea.",
+                "Formar pequeñas bolas con la masa y colocarlas en una bandeja de horno.",
+                "Hornear durante 10-12 minutos o hasta que estén doradas."
+            ],
+            "ingredients": [
+                "100g de mantequilla",
+                "100g de azúcar",
+                "1 huevo",
+                "1 cucharadita de vainilla",
+                "150g de harina",
+                "100g de avena",
+                "1 cucharadita de bicarbonato"
+            ],
+            "image": "galletas_de_avena.jpg",
+            "duration": "25 minutos",
+            "category": "Postre"
+        },
+        {
+            "title": "Salmón al Horno",
+            "steps": [
+                "Precalentar el horno a 200°C.",
+                "Colocar el salmón en una bandeja de horno.",
+                "Mezclar el aceite de oliva, el ajo, el limón y las hierbas y verter sobre el salmón.",
+                "Hornear durante 20-25 minutos o hasta que el salmón esté cocido.",
+                "Servir con verduras al vapor."
+            ],
+            "ingredients": [
+                "4 filetes de salmón",
+                "2 dientes de ajo",
+                "1 limón",
+                "Aceite de oliva",
+                "Hierbas frescas",
+                "Sal",
+                "Pimienta"
+            ],
+            "image": "salmon_al_horno.jpg",
+            "duration": "30 minutos",
+            "category": "Plato principal"
+        },
+        {
+            "title": "Risotto de Champiñones",
+            "steps": [
+                "Calentar el caldo en una olla.",
+                "En una sartén, derretir la mantequilla y añadir la cebolla picada.",
+                "Añadir los champiñones y cocinar hasta que estén tiernos.",
+                "Añadir el arroz y cocinar unos minutos.",
+                "Añadir el vino blanco y cocinar hasta que se evapore.",
+                "Añadir el caldo caliente poco a poco, removiendo constantemente, hasta que el arroz esté cocido.",
+                "Añadir el queso parmesano y mezclar bien."
+            ],
+            "ingredients": [
+                "300g de arroz arborio",
+                "1L de caldo de pollo",
+                "200g de champiñones",
+                "1 cebolla",
+                "50g de mantequilla",
+                "100ml de vino blanco",
+                "50g de queso parmesano",
+                "Sal",
+                "Pimienta"
+            ],
+            "image": "risotto_de_champinones.jpg",
+            "duration": "40 minutos",
+            "category": "Plato principal"
+        },
+        {
+            "title": "Crema de Calabaza",
+            "steps": [
+                "Pelar y cortar la calabaza en trozos.",
+                "Cortar la cebolla y el puerro en rodajas.",
+                "Calentar el aceite en una olla y añadir la cebolla y el puerro.",
+                "Añadir la calabaza y cocinar unos minutos.",
+                "Añadir el caldo de verduras y cocinar hasta que la calabaza esté tierna.",
+                "Triturar la mezcla hasta obtener una crema suave.",
+                "Añadir la nata y mezclar bien."
+            ],
+            "ingredients": [
+                "1kg de calabaza",
+                "1 cebolla",
+                "1 puerro",
+                "1L de caldo de verduras",
+                "200ml de nata",
+                "Aceite de oliva",
+                "Sal",
+                "Pimienta"
+            ],
+            "image": "crema_de_calabaza.jpg",
+            "duration": "35 minutos",
+            "category": "Sopa"
+        },
+        {
+            "title": "Fajitas de Pollo",
+            "steps": [
+                "Cortar el pollo en tiras.",
+                "Cortar los pimientos y la cebolla en tiras.",
+                "Calentar el aceite en una sartén y añadir el pollo.",
+                "Añadir los pimientos y la cebolla y cocinar hasta que estén tiernos.",
+                "Añadir las especias y mezclar bien.",
+                "Servir con tortillas de trigo."
+            ],
+            "ingredients": [
+                "500g de pollo",
+                "1 pimiento rojo",
+                "1 pimiento verde",
+                "1 cebolla",
+                "Tortillas de trigo",
+                "Aceite de oliva",
+                "Especias para fajitas",
+                "Sal"
+            ],
+            "image": "fajitas_de_pollo.jpg",
+            "duration": "30 minutos",
+            "category": "Plato principal"
+        },
+        {
+            "title": "Mousse de Chocolate",
+            "steps": [
+                "Derretir el chocolate al baño maría.",
+                "Separar las claras de las yemas.",
+                "Batir las yemas con el azúcar hasta obtener una mezcla cremosa.",
+                "Añadir el chocolate derretido y mezclar bien.",
+                "Batir las claras a punto de nieve e incorporarlas a la mezcla anterior.",
+                "Refrigerar durante al menos 2 horas antes de servir."
+            ],
+            "ingredients": [
+                "200g de chocolate",
+                "3 huevos",
+                "50g de azúcar"
+            ],
+            "image": "mousse_de_chocolate.jpg",
+            "duration": "20 minutos",
+            "category": "Postre"
+        },
+        {
+            "title": "Quiche Lorraine",
+            "steps": [
+                "Precalentar el horno a 180°C.",
+                "Extender la masa quebrada en un molde.",
+                "Cocinar el bacon en una sartén hasta que esté dorado.",
+                "Batir los huevos con la nata y el queso rallado.",
+                "Añadir el bacon a la mezcla y verter sobre la masa.",
+                "Hornear durante 30-35 minutos o hasta que esté dorada."
+            ],
+            "ingredients": [
+                "1 masa quebrada",
+                "200g de bacon",
+                "3 huevos",
+                "200ml de nata",
+                "100g de queso rallado",
+                "Sal",
+                "Pimienta"
+            ],
+            "image": "quiche_lorraine.jpg",
+            "duration": "50 minutos",
+            "category": "Plato principal"
+        }
+    ]
+}
