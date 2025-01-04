@@ -1,0 +1,684 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "data": {
+                "desayuno": {
+                    "title": "Tostadas de Aguacate y Huevo",
+                    "steps": [
+                        "Tostar el pan.",
+                        "Machacar el aguacate con sal y limón.",
+                        "Freír un huevo al punto deseado.",
+                        "Untar el aguacate sobre el pan tostado y colocar el huevo encima."
+                    ],
+                    "ingredients": [
+                        "2 rebanadas de pan integral",
+                        "1 aguacate",
+                        "1 huevo",
+                        "Sal y limón al gusto"
+                    ],
+                    "image": "tostadas_aguacate_huevo.jpg",
+                    "duration": "10 minutos",
+                    "category": "Desayuno"
+                },
+                "almuerzo": {
+                    "title": "Salteado de Pollo y Verduras",
+                    "steps": [
+                        "Cortar el pollo en tiras y las verduras en trozos pequeños.",
+                        "Calentar aceite en una sartén y saltear el pollo hasta que esté dorado.",
+                        "Añadir las verduras y cocinar hasta que estén tiernas.",
+                        "Sazonar con salsa de soja y servir."
+                    ],
+                    "ingredients": [
+                        "200 g de pechuga de pollo",
+                        "1 zanahoria",
+                        "1 calabacín",
+                        "1 pimiento rojo",
+                        "2 cucharadas de salsa de soja"
+                    ],
+                    "image": "salteado_pollo_verduras.jpg",
+                    "duration": "20 minutos",
+                    "category": "Almuerzo"
+                },
+                "snack": {
+                    "title": "Yogur con Granola y Frutas",
+                    "steps": [
+                        "Colocar el yogur en un bol.",
+                        "Añadir granola y frutas troceadas encima.",
+                        "Opcional: añadir miel para endulzar."
+                    ],
+                    "ingredients": [
+                        "1 taza de yogur natural",
+                        "1/2 taza de granola",
+                        "1/2 taza de frutas frescas (arándanos, fresas, plátano)",
+                        "1 cucharada de miel (opcional)"
+                    ],
+                    "image": "yogur_granola_frutas.jpg",
+                    "duration": "5 minutos",
+                    "category": "Snack"
+                },
+                "cena": {
+                    "title": "Ensalada de Atún y Espinacas",
+                    "steps": [
+                        "Lavar y secar las espinacas.",
+                        "Mezclar el atún con un poco de aceite de oliva y limón.",
+                        "En un bol, combinar las espinacas, el atún, y añadir rodajas de tomate y pepino.",
+                        "Aliñar al gusto."
+                    ],
+                    "ingredients": [
+                        "1 taza de espinacas frescas",
+                        "1 lata de atún en agua",
+                        "1 tomate",
+                        "1/2 pepino",
+                        "Aceite de oliva y limón"
+                    ],
+                    "image": "ensalada_atun_espinacas.jpg",
+                    "duration": "10 minutos",
+                    "category": "Cena"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "data": {
+                "desayuno": {
+                    "title": "Batido de Espinacas y Plátano",
+                    "steps": [
+                        "Colocar todos los ingredientes en una licuadora.",
+                        "Licuar hasta obtener una mezcla homogénea.",
+                        "Servir en un vaso y disfrutar."
+                    ],
+                    "ingredients": [
+                        "1 plátano",
+                        "1 taza de espinacas frescas",
+                        "1 taza de leche de almendras",
+                        "1 cucharadita de semillas de chía"
+                    ],
+                    "image": "batido_espinacas_platano.jpg",
+                    "duration": "5 minutos",
+                    "category": "Desayuno"
+                },
+                "almuerzo": {
+                    "title": "Pasta Integral con Salsa de Tomate y Albahaca",
+                    "steps": [
+                        "Cocinar la pasta en agua con sal según las instrucciones del paquete.",
+                        "Preparar la salsa calentando aceite de oliva y añadiendo tomate triturado y albahaca.",
+                        "Mezclar la pasta con la salsa y servir."
+                    ],
+                    "ingredients": [
+                        "200 g de pasta integral",
+                        "2 tomates grandes",
+                        "2 cucharadas de aceite de oliva",
+                        "Hojas de albahaca fresca"
+                    ],
+                    "image": "pasta_tomate_albahaca.jpg",
+                    "duration": "25 minutos",
+                    "category": "Almuerzo"
+                },
+                "snack": {
+                    "title": "Palitos de Zanahoria con Hummus",
+                    "steps": [
+                        "Pelar y cortar la zanahoria en palitos.",
+                        "Colocar el hummus en un bol.",
+                        "Servir los palitos de zanahoria junto con el hummus."
+                    ],
+                    "ingredients": [
+                        "1 zanahoria grande",
+                        "1/2 taza de hummus"
+                    ],
+                    "image": "zanahorias_hummus.jpg",
+                    "duration": "5 minutos",
+                    "category": "Snack"
+                },
+                "cena": {
+                    "title": "Tortilla de Espinacas y Champiñones",
+                    "steps": [
+                        "Lavar y cortar los champiñones.",
+                        "Saltear los champiñones con un poco de aceite de oliva.",
+                        "Añadir las espinacas y cocinar por 2 minutos.",
+                        "Batir los huevos, añadirlos a la sartén y cocinar hasta que cuajen."
+                    ],
+                    "ingredients": [
+                        "2 huevos",
+                        "1 taza de espinacas",
+                        "1/2 taza de champiñones",
+                        "1 cucharada de aceite de oliva"
+                    ],
+                    "image": "tortilla_espinacas_champinones.jpg",
+                    "duration": "15 minutos",
+                    "category": "Cena"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "data": {
+                "desayuno": {
+                    "title": "Smoothie de Espinacas y Frutas",
+                    "steps": [
+                        "Lavar las espinacas.",
+                        "Pelar y cortar las frutas.",
+                        "Colocar las espinacas, frutas y leche vegetal en la licuadora.",
+                        "Licuar hasta obtener una mezcla homogénea."
+                    ],
+                    "ingredients": [
+                        "1 taza de espinacas frescas",
+                        "1 plátano maduro",
+                        "1/2 taza de fresas",
+                        "1 taza de leche de almendras"
+                    ],
+                    "image": "smoothie_espinacas_frutas.jpg",
+                    "duration": "5 minutos",
+                    "category": "Desayuno"
+                },
+                "almuerzo": {
+                    "title": "Ensalada Mediterránea de Garbanzos",
+                    "steps": [
+                        "Lavar y cortar los vegetales.",
+                        "Enjuagar y escurrir los garbanzos.",
+                        "Mezclar los garbanzos, vegetales y aceitunas.",
+                        "Añadir aceite de oliva, jugo de limón, sal y pimienta al gusto."
+                    ],
+                    "ingredients": [
+                        "1 taza de garbanzos cocidos",
+                        "1 pepino",
+                        "1 tomate",
+                        "1/4 de cebolla morada",
+                        "Aceitunas negras",
+                        "Aceite de oliva y limón"
+                    ],
+                    "image": "ensalada_garbanzos.jpg",
+                    "duration": "15 minutos",
+                    "category": "Almuerzo"
+                },
+                "snack": {
+                    "title": "Palitos de Verduras con Hummus",
+                    "steps": [
+                        "Lavar y cortar las verduras en bastones.",
+                        "Servir las verduras con hummus como dip."
+                    ],
+                    "ingredients": [
+                        "1 zanahoria",
+                        "1 pepino",
+                        "1 pimiento rojo",
+                        "1/2 taza de hummus"
+                    ],
+                    "image": "snack_verduras_hummus.jpg",
+                    "duration": "5 minutos",
+                    "category": "Snack"
+                },
+                "cena": {
+                    "title": "Sopa de Calabaza y Jengibre",
+                    "steps": [
+                        "Pelar y cortar la calabaza y el jengibre.",
+                        "Sofreír el jengibre con un poco de aceite.",
+                        "Añadir la calabaza y agua suficiente para cubrir.",
+                        "Cocinar hasta que esté tierna y licuar."
+                    ],
+                    "ingredients": [
+                        "1 calabaza pequeña",
+                        "1 trozo de jengibre fresco",
+                        "1 cucharada de aceite de oliva",
+                        "Agua y sal al gusto"
+                    ],
+                    "image": "sopa_calabaza_jengibre.jpg",
+                    "duration": "30 minutos",
+                    "category": "Cena"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "data": {
+                "desayuno": {
+                    "title": "Avena con Frutos Rojos",
+                    "steps": [
+                        "Calentar la leche o agua en una olla.",
+                        "Añadir los copos de avena y cocinar a fuego lento.",
+                        "Servir con frutos rojos frescos y un toque de miel."
+                    ],
+                    "ingredients": [
+                        "1/2 taza de avena",
+                        "1 taza de leche o agua",
+                        "1/4 taza de frutos rojos",
+                        "1 cucharada de miel"
+                    ],
+                    "image": "avena_frutos_rojos.jpg",
+                    "duration": "10 minutos",
+                    "category": "Desayuno"
+                },
+                "almuerzo": {
+                    "title": "Pasta Integral con Verduras",
+                    "steps": [
+                        "Cocer la pasta integral.",
+                        "Saltear las verduras en una sartén con aceite de oliva.",
+                        "Mezclar la pasta cocida con las verduras salteadas y servir."
+                    ],
+                    "ingredients": [
+                        "1 taza de pasta integral",
+                        "1 calabacín",
+                        "1 zanahoria",
+                        "1/4 de brócoli",
+                        "Aceite de oliva y sal"
+                    ],
+                    "image": "pasta_integral_verduras.jpg",
+                    "duration": "20 minutos",
+                    "category": "Almuerzo"
+                },
+                "snack": {
+                    "title": "Yogur Natural con Semillas",
+                    "steps": [
+                        "Colocar el yogur en un bol.",
+                        "Añadir las semillas y miel encima.",
+                        "Servir frío."
+                    ],
+                    "ingredients": [
+                        "1 taza de yogur natural",
+                        "1 cucharada de semillas de chía",
+                        "1 cucharada de semillas de girasol",
+                        "1 cucharadita de miel"
+                    ],
+                    "image": "yogur_semillas.jpg",
+                    "duration": "5 minutos",
+                    "category": "Snack"
+                },
+                "cena": {
+                    "title": "Pescado al Horno con Verduras",
+                    "steps": [
+                        "Precalentar el horno a 180°C.",
+                        "Colocar el pescado y las verduras en una bandeja.",
+                        "Añadir aceite de oliva, sal y especias al gusto.",
+                        "Hornear durante 20 minutos."
+                    ],
+                    "ingredients": [
+                        "1 filete de pescado blanco",
+                        "1/2 pimiento rojo",
+                        "1/2 calabacín",
+                        "1/4 de cebolla",
+                        "Aceite de oliva y especias"
+                    ],
+                    "image": "pescado_horno_verduras.jpg",
+                    "duration": "30 minutos",
+                    "category": "Cena"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "data": {
+                "desayuno": {
+                    "title": "Tostadas de Salmón y Aguacate",
+                    "steps": [
+                        "Tostar el pan.",
+                        "Machacar el aguacate con sal y limón.",
+                        "Colocar las lonchas de salmón ahumado sobre el aguacate.",
+                        "Añadir un poco de eneldo y pimienta."
+                    ],
+                    "ingredients": [
+                        "2 rebanadas de pan integral",
+                        "1 aguacate",
+                        "100 g de salmón ahumado",
+                        "Sal, limón, eneldo y pimienta al gusto"
+                    ],
+                    "image": "tostadas_salmon_aguacate.jpg",
+                    "duration": "10 minutos",
+                    "category": "Desayuno"
+                },
+                "almuerzo": {
+                    "title": "Arroz Integral con Verduras al Curry",
+                    "steps": [
+                        "Cocinar el arroz integral en agua con sal.",
+                        "Saltear las verduras con aceite de oliva y curry.",
+                        "Mezclar el arroz con las verduras y servir caliente."
+                    ],
+                    "ingredients": [
+                        "1 taza de arroz integral",
+                        "1 zanahoria",
+                        "1 pimiento verde",
+                        "1/2 cebolla",
+                        "1 cucharadita de curry"
+                    ],
+                    "image": "arroz_integral_curry.jpg",
+                    "duration": "30 minutos",
+                    "category": "Almuerzo"
+                },
+                "snack": {
+                    "title": "Batido de Frutas y Leche",
+                    "steps": [
+                        "Pelar y cortar las frutas.",
+                        "Colocar las frutas y la leche en la licuadora.",
+                        "Licuar hasta obtener una mezcla homogénea."
+                    ],
+                    "ingredients": [
+                        "1 plátano",
+                        "1 manzana",
+                        "1 taza de leche",
+                        "1 cucharadita de miel"
+                    ],
+                    "image": "batido_frutas_leche.jpg",
+                    "duration": "5 minutos",
+                    "category": "Snack"
+                },
+                "cena": {
+                    "title": "Ensalada de Quinoa y Vegetales",
+                    "steps": [
+                        "Cocinar la quinoa en agua con sal.",
+                        "Cortar los vegetales en trozos pequeños.",
+                        "Mezclar la quinoa con los vegetales y aliñar al gusto."
+                    ],
+                    "ingredients": [
+                        "1 taza de quinoa cocida",
+                        "1 pepino",
+                        "1 tomate",
+                        "1/4 de pimiento rojo",
+                        "Aceite de oliva y limón"
+                    ],
+                    "image": "ensalada_quinoa_vegetales.jpg",
+                    "duration": "20 minutos",
+                    "category": "Cena"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "data": {
+                "desayuno": {
+                    "title": "Tostadas con Aguacate y Huevo",
+                    "steps": [
+                        "Tostar el pan integral.",
+                        "Aguacate: pelar y cortar en rodajas finas.",
+                        "Freír un huevo al gusto.",
+                        "Montar las tostadas con aguacate y huevo encima."
+                    ],
+                    "ingredients": [
+                        "2 rebanadas de pan integral",
+                        "1 aguacate",
+                        "1 huevo",
+                        "Aceite de oliva"
+                    ],
+                    "image": "tostadas_aguacate_huevo.jpg",
+                    "duration": "10 minutos",
+                    "category": "Desayuno"
+                },
+                "almuerzo": {
+                    "title": "Espaguetis a la Carbonara",
+                    "steps": [
+                        "Cocer los espaguetis en agua con sal.",
+                        "Freír panceta o tocino en trozos pequeños.",
+                        "Batir los huevos con queso parmesano.",
+                        "Mezclar los espaguetis con el tocino y la mezcla de huevo y queso."
+                    ],
+                    "ingredients": [
+                        "200g de espaguetis",
+                        "100g de panceta o tocino",
+                        "2 huevos",
+                        "50g de queso parmesano",
+                        "Aceite de oliva"
+                    ],
+                    "image": "espaguetis_carbonara.jpg",
+                    "duration": "20 minutos",
+                    "category": "Almuerzo"
+                },
+                "snack": {
+                    "title": "Yogur con Frutas y Miel",
+                    "steps": [
+                        "Colocar el yogur natural en un tazón.",
+                        "Añadir frutas frescas cortadas como fresas o plátano.",
+                        "Endulzar con miel al gusto."
+                    ],
+                    "ingredients": [
+                        "1 taza de yogur natural",
+                        "1/2 plátano",
+                        "1/4 taza de fresas",
+                        "1 cucharadita de miel"
+                    ],
+                    "image": "yogur_frutas_miel.jpg",
+                    "duration": "5 minutos",
+                    "category": "Snack"
+                },
+                "cena": {
+                    "title": "Pollo a la Parrilla con Arroz",
+                    "steps": [
+                        "Marinar el pollo con aceite de oliva, limón y especias.",
+                        "Cocinar el pollo a la parrilla o en una sartén.",
+                        "Cocer el arroz en agua con sal.",
+                        "Servir el pollo con arroz."
+                    ],
+                    "ingredients": [
+                        "1 pechuga de pollo",
+                        "1 taza de arroz",
+                        "Aceite de oliva",
+                        "Especias (sal, pimienta, ajo en polvo)"
+                    ],
+                    "image": "pollo_arroz.jpg",
+                    "duration": "30 minutos",
+                    "category": "Cena"
+                }
+            }
+        },
+        {
+            "id": 7,
+            "data": {
+                "desayuno": {
+                    "title": "Smoothie de Plátano y Leche",
+                    "steps": [
+                        "Pelar y cortar el plátano.",
+                        "Colocar el plátano en la licuadora con leche.",
+                        "Licuar hasta obtener una mezcla suave."
+                    ],
+                    "ingredients": [
+                        "1 plátano",
+                        "1 taza de leche",
+                        "1 cucharadita de miel"
+                    ],
+                    "image": "smoothie_plátano_leche.jpg",
+                    "duration": "5 minutos",
+                    "category": "Desayuno"
+                },
+                "almuerzo": {
+                    "title": "Lasagna de Carne",
+                    "steps": [
+                        "Cocer las láminas de lasagna según las indicaciones del paquete.",
+                        "Preparar la carne picada con cebolla, ajo y salsa de tomate.",
+                        "Montar la lasaña con carne, queso ricotta y láminas de pasta.",
+                        "Hornear hasta que esté dorada."
+                    ],
+                    "ingredients": [
+                        "300g de carne picada",
+                        "1 cebolla",
+                        "1 diente de ajo",
+                        "250g de salsa de tomate",
+                        "100g de queso ricotta",
+                        "Láminas de lasagna"
+                    ],
+                    "image": "lasagna_carne.jpg",
+                    "duration": "45 minutos",
+                    "category": "Almuerzo"
+                },
+                "snack": {
+                    "title": "Frutas con Crema de Cacahuate",
+                    "steps": [
+                        "Cortar las frutas (manzana, plátano, fresas).",
+                        "Servir las frutas con una cucharada de crema de cacahuate."
+                    ],
+                    "ingredients": [
+                        "1 manzana",
+                        "1 plátano",
+                        "1/2 taza de fresas",
+                        "1 cucharada de crema de cacahuate"
+                    ],
+                    "image": "frutas_crema_cacahuate.jpg",
+                    "duration": "5 minutos",
+                    "category": "Snack"
+                },
+                "cena": {
+                    "title": "Filete de Res con Puré de Patatas",
+                    "steps": [
+                        "Cocinar el filete de res a la parrilla o sartén.",
+                        "Hervir las patatas y hacer el puré con leche y mantequilla.",
+                        "Servir el filete con el puré de patatas."
+                    ],
+                    "ingredients": [
+                        "1 filete de res",
+                        "2 patatas",
+                        "1/4 taza de leche",
+                        "1 cucharada de mantequilla"
+                    ],
+                    "image": "filete_res_pure_patatas.jpg",
+                    "duration": "30 minutos",
+                    "category": "Cena"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "data": {
+                "desayuno": {
+                    "title": "Panqueques de Avena y Plátano",
+                    "steps": [
+                        "Triturar el plátano y mezclar con avena y huevo.",
+                        "Cocinar la mezcla en una sartén hasta que estén dorados.",
+                        "Servir con miel o frutas."
+                    ],
+                    "ingredients": [
+                        "1 plátano",
+                        "1/2 taza de avena",
+                        "1 huevo",
+                        "1 cucharadita de miel"
+                    ],
+                    "image": "panqueques_avena_plátano.jpg",
+                    "duration": "15 minutos",
+                    "category": "Desayuno"
+                },
+                "almuerzo": {
+                    "title": "Fideos con Pollo y Pesto",
+                    "steps": [
+                        "Cocer los fideos.",
+                        "Cocinar el pollo en tiras con aceite de oliva.",
+                        "Mezclar los fideos con pollo y pesto."
+                    ],
+                    "ingredients": [
+                        "200g de fideos",
+                        "1 pechuga de pollo",
+                        "2 cucharadas de pesto",
+                        "Aceite de oliva"
+                    ],
+                    "image": "fideos_pollo_pesto.jpg",
+                    "duration": "25 minutos",
+                    "category": "Almuerzo"
+                },
+                "snack": {
+                    "title": "Queso Cottage con Piña",
+                    "steps": [
+                        "Cortar la piña en trozos pequeños.",
+                        "Mezclar el queso cottage con los trozos de piña."
+                    ],
+                    "ingredients": [
+                        "1 taza de queso cottage",
+                        "1/2 piña"
+                    ],
+                    "image": "queso_cottage_pina.jpg",
+                    "duration": "5 minutos",
+                    "category": "Snack"
+                },
+                "cena": {
+                    "title": "Salmón a la Parrilla con Papas",
+                    "steps": [
+                        "Marinar el salmón con limón y especias.",
+                        "Cocinar el salmón a la parrilla.",
+                        "Hervir las papas y servir con el salmón."
+                    ],
+                    "ingredients": [
+                        "1 filete de salmón",
+                        "2 papas",
+                        "Especias al gusto",
+                        "Aceite de oliva"
+                    ],
+                    "image": "salmón_papas.jpg",
+                    "duration": "30 minutos",
+                    "category": "Cena"
+                }
+            }
+        },
+        {
+            "id": 9,
+            "data": {
+                "desayuno": {
+                    "title": "Tostadas de Aguacate y Tomate",
+                    "steps": [
+                        "Tostar el pan integral.",
+                        "Machacar el aguacate con sal y limón.",
+                        "Cortar el tomate en rodajas finas.",
+                        "Montar las tostadas con aguacate y tomate."
+                    ],
+                    "ingredients": [
+                        "2 rebanadas de pan integral",
+                        "1 aguacate",
+                        "1 tomate",
+                        "Sal, limón y pimienta al gusto"
+                    ],
+                    "image": "tostadas_aguacate_tomate.jpg",
+                    "duration": "10 minutos",
+                    "category": "Desayuno"
+                },
+                "almuerzo": {
+                    "title": "Ensalada César con Pollo",
+                    "steps": [
+                        "Cocinar el pollo a la parrilla y cortar en tiras.",
+                        "Preparar la salsa César con mayonesa, ajo y limón.",
+                        "Mezclar lechuga, pollo, crutones y salsa César."
+                    ],
+                    "ingredients": [
+                        "1 pechuga de pollo",
+                        "1 lechuga romana",
+                        "1/2 taza de crutones",
+                        "2 cucharadas de mayonesa",
+                        "1 diente de ajo",
+                        "1 limón"
+                    ],
+                    "image": "ensalada_cesar_pollo.jpg",
+                    "duration": "20 minutos",
+                    "category": "Almuerzo"
+                },
+                "snack": {
+                    "title": "Batido de Proteínas",
+                    "steps": [
+                        "Mezclar la proteína en polvo con leche o agua.",
+                        "Batir hasta obtener una mezcla homogénea."
+                    ],
+                    "ingredients": [
+                        "1 scoop de proteína en polvo",
+                        "1 taza de leche o agua"
+                    ],
+                    "image": "batido_proteinas.jpg",
+                    "duration": "5 minutos",
+                    "category": "Snack"
+                },
+                "cena": {
+                    "title": "Hamburguesa de Lentejas",
+                    "steps": [
+                        "Cocinar las lentejas y triturar.",
+                        "Mezclar las lentejas con cebolla, ajo y especias.",
+                        "Formar las hamburguesas y cocinar en una sartén."
+                    ],  
+                    "ingredients": [
+                        "1 taza de lentejas cocidas",
+                        "1/4 de cebolla",
+                        "1 diente de ajo",
+                        "Especias al gusto",
+                        "Pan de hamburguesa"
+                    ],
+                    "image": "hamburguesa_lentejas.jpg",
+                    "duration": "30 minutos",
+                    "category": "Cena"
+                }
+            }
+        }
+
+
+
+
+
+
+    ]
+}

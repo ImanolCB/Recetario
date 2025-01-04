@@ -1,0 +1,31 @@
+td {
+    height: 100px; /* Ajusta la altura de las celdas según tu necesidad */
+    vertical-align: middle; /* Centra el contenido de las celdas verticalmente */
+    padding: 0; /* Elimina el padding de las celdas */
+}
+
+
+/* Estilo para los botones en las celdas */
+.button_table {
+    width: 100%; /* El botón ocupa toda la celda */
+    height: 100%; /* Opcional: ajusta la altura si es necesario */
+    text-align: center; /* Centra el texto dentro del botón */
+    font-weight: bold;
+    border: none;
+    background-color: transparent; /* Sin color de fondo por defecto */
+    color: #000; /* Color del texto por defecto */
+    cursor: pointer;
+    padding: 0 !important;
+  }
+  
+  /* Estilo para el botón del día actual (con color rosa) */
+  button.current-day {
+    background-color: #d63369; /* Rosa */
+    color: white; /* Texto blanco */
+  }
+  
+  /* Estilo para el botón cuando pasa el cursor (hover) */
+  button:hover {
+    background-color: #f1f1f1; /* Color de fondo cuando el cursor está encima */
+  }
+  
