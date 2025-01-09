@@ -1,5 +1,5 @@
 const express = require('express');
-const { getAllRecipes, createRecipe } = require('../services/recipeService');
+const { getAllRecipes, createRecipe } = require('../services/recipeService.js');
 const router = express.Router();
 
 // Ruta para obtener todas las recetas
