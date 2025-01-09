@@ -24,7 +24,6 @@ function searchRecipesByCategory(data, requirements) {
     );
 }
 
-// Función para crear las filas de la tabla
 function createRecipeTableRows(data) {
     const tbody = document.querySelector('tbody');
     tbody.innerHTML = ''; // Limpiar filas existentes
@@ -32,8 +31,8 @@ function createRecipeTableRows(data) {
     // Días de la semana
     const daysOfWeek = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
 
-    // Obtener el índice del día actual (0 - Lunes, 6 - Domingo)
-    const currentDayIndex = new Date().getDay()-1; // 0 = Domingo, 1 = Lunes, ..., 6 = Sábado
+    // Obtener el índice del día actual
+    const currentDayIndex = new Date().getDay() - 1; // 0 = Domingo, 1 = Lunes, ..., 6 = Sábado
 
     daysOfWeek.forEach((day, index) => {
         const row = document.createElement('tr');
@@ -41,24 +40,33 @@ function createRecipeTableRows(data) {
         // Columna Día
         const tdDay = document.createElement('td');
         tdDay.textContent = day;
+        tdDay.classList.add('text-center', 'align-middle');
         row.appendChild(tdDay);
 
         // Crear las celdas para desayuno, almuerzo, snack y cena
         ["desayuno", "almuerzo", "snack", "cena"].forEach(mealType => {
             const tdMeal = document.createElement('td');
             tdMeal.classList.add('text-center', 'align-middle');
-            const button = document.createElement('button','h-100');
-            button.className = 'button_table';
-            const recipe = data[index].data[mealType];
+            
+            // Crear botón para la receta
+            const button = document.createElement('button');
+            button.className = 'button_table btn btn-Light btn-padding-0 h-100';
+            const recipe = data[index]?.data[mealType];
 
             // Si es el día actual, se le agrega la clase 'current-day'
             if (index === currentDayIndex) {
                 button.classList.add('current-day');
             }
 
-            button.textContent = recipe.title;
-            button.classList.add('btn', 'btn-Light', 'btn-padding-0');
-            button.addEventListener('click', () => showRecipeDetails(recipe));
+            // Asignar el título de la receta al botón
+            button.textContent = recipe?.title || "No disponible";
+            
+            // Agregar evento para mostrar detalles de la receta
+            if (recipe) {
+                button.addEventListener('click', () => showRecipeDetails(recipe));
+            } else {
+                button.disabled = true;
+            }
 
             tdMeal.appendChild(button);
             row.appendChild(tdMeal);
@@ -68,22 +76,47 @@ function createRecipeTableRows(data) {
     });
 }
 
-// Función para mostrar los detalles de la receta en el modal
+
 function showRecipeDetails(recipe) {
     const modal = document.getElementById('recipeModal');
     const modalTitle = document.querySelector('.modal-title');
     const modalBody = document.querySelector('.modal-body');
 
+    // Limpiar contenido anterior del modal
+    modalTitle.textContent = '';
+    modalBody.textContent = '';
+
+    // Configurar título del modal
     modalTitle.textContent = recipe.title;
-    modalBody.innerHTML = `
-        <p><strong>Categoría:</strong> ${recipe.category}</p>
-        <p><strong>Ingredientes:</strong> ${recipe.ingredients.join(', ')}</p>
-        <p><strong>Pasos:</strong> ${recipe.steps.join('<br>')}</p>
-        <p><strong>Duración:</strong> ${recipe.duration}</p>
-    `;
+
+    // Crear y agregar detalles de la receta al modal
+    const categoryParagraph = document.createElement('p');
+    categoryParagraph.innerHTML = `<strong>Categoría:</strong> ${recipe.category}`;
+    modalBody.appendChild(categoryParagraph);
+
+    const ingredientsParagraph = document.createElement('p');
+    ingredientsParagraph.innerHTML = `<strong>Ingredientes:</strong> ${recipe.ingredients.join(', ')}`;
+    modalBody.appendChild(ingredientsParagraph);
+
+    const stepsParagraph = document.createElement('p');
+    stepsParagraph.innerHTML = `<strong>Pasos:</strong> ${recipe.steps.join('<br>')}`;
+    modalBody.appendChild(stepsParagraph);
+
+    const durationParagraph = document.createElement('p');
+    durationParagraph.innerHTML = `<strong>Duración:</strong> ${recipe.duration}`;
+    modalBody.appendChild(durationParagraph);
+
+    const image = document.createElement('img');
+    image.src = 'media/images/' + recipe.image;
+    image.alt = recipe.title;
+    image.className = 'img-fluid';
+    modalBody.appendChild(image);
+
+    // Mostrar el modal
     const modalInstance = new bootstrap.Modal(modal);
     modalInstance.show();
 }
+
 
 // Obtener los datos de las recetas y procesarlos
 async function main() {

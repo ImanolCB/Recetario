@@ -660,7 +660,7 @@
                         "Cocinar las lentejas y triturar.",
                         "Mezclar las lentejas con cebolla, ajo y especias.",
                         "Formar las hamburguesas y cocinar en una sartén."
-                    ],  
+                    ],
                     "ingredients": [
                         "1 taza de lentejas cocidas",
                         "1/4 de cebolla",
@@ -674,11 +674,5 @@
                 }
             }
         }
-
-
-
-
-
-
     ]
 }

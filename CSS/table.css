@@ -2,7 +2,7 @@ td {
     height: 100px; /* Ajusta la altura de las celdas según tu necesidad */
     vertical-align: middle; /* Centra el contenido de las celdas verticalmente */
     padding: 0; /* Elimina el padding de las celdas */
-}
+  }
 
 
 /* Estilo para los botones en las celdas */

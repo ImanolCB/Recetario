@@ -6,6 +6,7 @@
     font-family: "Delius", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 1rem;
 }
 
 body {
@@ -52,3 +53,25 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+@media screen and (min-width: 360px) {
+    * {
+        font-size: 0.7rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    * {
+        font-size: .9rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    * {
+        font-size: 1rem;
+    }
+    
+}
+
