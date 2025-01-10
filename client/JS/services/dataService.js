@@ -1,4 +1,3 @@
-// client/JS/services/dataService.js
 
 export async function fetchJSONData(path) {
     try {

@@ -1,4 +1,3 @@
-// client/JS/ui/recipeDetails.js
 
 export function showRecipeDetails(recipe) {
     const modal = document.getElementById('recipeModal');
